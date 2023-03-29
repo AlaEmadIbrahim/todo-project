@@ -5,46 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Wallet goals</title>
 </head>
 <body>
     <header>
-        <h1>Wallet goals <img src="./wallet logo.png" alt="default picture" width="111"
+        <h1 id="bar"><img src="./wallet logo.png" alt="wallet logo" width="111"
             height="55">
-            <a href="./index.html">Home page</a>
+            Wallet goals 
+            <span class="center">
+            <a class="home" href="./index.html">Home</a>
+            <a class="about" href="./about.html">About Us</a>
+        </span>  
         </h1>
     </header>
     <main>
-        <section>
-            <ul>
-                <img src="./aaa.png"alt="ALA' picture" width="155"
+            <div class="div">
+            <img src="./aaa.png"alt="ALA' picture" width="155"
                 height="111">
-                <li> Name : ALA' EMAD IBRAHIM</li>
+            <ul>
+                <span class="name">ALA' EMAD IBRAHIM</span>
                 <li> Gender : Male</li>
                 <li> Nationality : Jordanian</li>
                 <li> Address : Amman</li>
             </ul>  
-        </section>
+        </div>
+        <div class="cont">
+            Contact Me
+        </div>
+    
         <section>
-            <label>Enter your Name:</label>
+            <div class="info">
+            <label>Full Name</label>
             <input type="text">
-
             <br>
-            <label>Enter your Email:</label>
+            <label>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="email">
             <br>
-            <label>Enter your Message:</label>
+            <label>Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="text">
             <br>
-            <input type="submit">
+            <label>Message&nbsp;&nbsp;&nbsp;</label>
+            <input class="msg" type="text">
+        </div>
+            <br>
+            <div class="send">
+                <button class="send1">Send</button>
+            </div>
         </section>
     </main>
     <br>
     <br>
-    <br> <br>
-  
+    <br>
    
-    <footer>
+    <footer id="footer1">
         <p>Follow us on instagram
             <a href="https://www.instagram.com/explore/tags/wallet/">walletgoals</a>
         </p>
